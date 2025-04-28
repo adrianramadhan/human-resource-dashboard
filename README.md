@@ -31,7 +31,7 @@ Jaya Jaya Maju adalah perusahaan multinasional yang berdiri sejak tahun 2000 den
 5. **Business Dashboard**  
    - Pengembangan dashboard interaktif di Metabase untuk memonitor risiko attrition dan rekomendasi retensi.  
 6. **Deployment Lokal**  
-   - Penyajian model dan dashboard dalam lingkungan lokal (container Metabase) beserta dokumentasi teknis. 
+   - Penyajian model dan dashboard dalam lingkungan lokal (container Metabase). 
 
 ## Persiapan
 
