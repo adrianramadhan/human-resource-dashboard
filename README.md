@@ -33,15 +33,46 @@ Jaya Jaya Maju adalah perusahaan multinasional yang berdiri sejak tahun 2000 den
 6. **Deployment Lokal**  
    - Penyajian model dan dashboard dalam lingkungan lokal (container Metabase) beserta dokumentasi teknis. 
 
-### Persiapan
+## Persiapan
 
-Sumber data: ....
+Berikut tahapan singkat untuk menyiapkan environment dan menjalankan script prediksi:
 
-Setup environment:
+- **Sumber data**:  
+  https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee
 
-```
+- **Setup environment (conda)**:  
+  1. Buka terminal/PowerShell  
+  2. Buat dan aktifkan env:  
+     ```bash
+     conda create --name prediksi_attrition python=3.9
+     conda activate prediksi_attrition
+     ```  
+  3. Instal library yang dibutuhkan:  
+     ```bash
+     pip install numpy==2.2.5 pandas==2.2.3 matplotlib==3.10.1 seaborn==0.13.2 scikit-learn==1.6.1 SQLAlchemy==2.0.40 python-dotenv psycopg2-binary joblib
+     ```  
+  4. Jalankan Jupyter Notebook (atau VSCode):  
+     ```bash
+     jupyter-notebook
+     ```
+     
+- **Credential Supabase (untuk Metabase)**:  
+  - Host: `aws-0-ap-southeast-1.pooler.supabase.com`  
+  - Port: `6543`  
+  - Database: `postgres`  
+  - User: `postgres.yvfheuwphfzqfsppwybl`  
+  - Password: `<YOUR-PASSWORD>`  
+  - Pool mode: `transaction`  
 
-```
+- **Menjalankan script prediksi**:  
+  1. Buka `prediksi_hardcode.py`  
+  2. Sesuaikan hard-coded input di variabel `data`  
+  3. Jalankan:  
+     ```bash
+     python prediksi_hardcode.py
+     ```  
+  4. Hasil prediksi (“Stay”/“Resign”) dan probabilitas akan dicetak di console.
+
 
 ## Business Dashboard  
 **Kartu yang Tersedia**:  
