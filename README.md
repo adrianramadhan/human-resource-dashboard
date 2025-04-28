@@ -82,18 +82,13 @@ Berikut tahapan singkat untuk menyiapkan environment dan menjalankan script pred
 
 ## Business Dashboard
 
-**Kartu yang Tersedia**:
-
-- Attrition Rate by Department (Bar chart)
-- Top 5 JobRoles with Highest Attrition (Horizontal bar)
-- Overtime Impact on Attrition (Bar chart)
-- Attrition Rate by Gender (Bar chart)
-- Attrition Rate by EducationField (Bar chart)
-- Average YearsAtCompany by Attrition (Bar chart)
+Dashboard “HR Attrition Insights” mencakup beberapa kartu visualisasi utama untuk membantu departemen HR memahami faktor-faktor yang mempengaruhi attrition, yaitu: Attrition Rate by Department, Top JobRoles with Highest Attrition, Overtime Impact on Attrition, Attrition Rate by Gender, Attrition Rate by EducationField, dan Average YearsAtCompany by Attrition. Masing-masing pertanyaan bisnis menggunakan jenis chart yang sesuai—bar chart, horizontal bar, dan line chart—sehingga memudahkan identifikasi departemen, role, demografi, dan durasi kerja yang paling berisiko.  
 
 ---
 
 ## Conclusion
+
+Setelah melakukan rangkaian analisis data, pemodelan machine learning, dan pembuatan dashboard interaktif, kini kita memiliki gambaran menyeluruh mengenai faktor-faktor yang mendorong attrition di Jaya Jaya Maju. Dengan memadukan kekuatan model prediksi dan visualisasi data, tim HR dapat bergerak dari pendekatan reaktif menjadi proaktif dalam mempertahankan talenta. Berikut ringkasan performa model dan insight bisnis, serta rekomendasi langkah selanjutnya.
 
 ### Model Performance:
 
