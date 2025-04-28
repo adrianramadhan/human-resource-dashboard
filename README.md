@@ -43,17 +43,62 @@ Setup environment:
 
 ```
 
-## Business Dashboard
+## Business Dashboard  
+**Kartu yang Tersedia**:  
+- Attrition Rate by Department (Bar chart)  
+- Top 5 JobRoles with Highest Attrition (Horizontal bar)  
+- Overtime Impact on Attrition (Bar chart)  
+- Attrition Rate by Gender (Bar chart)  
+- Attrition Rate by EducationField (Bar chart)  
+- Average YearsAtCompany by Attrition (Bar chart)  
 
-Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
+---
 
-## Conclusion
+## Conclusion  
+### Model Performance:  
+- **ROC-AUC**: ~0.82  
+- **Logistic Regression**:  
+  - Recall 75% *(baik untuk deteksi resign)*  
+- **Random Forest**:  
+  - Precision 82% *(baik untuk prediksi resign)*  
 
-Jelaskan konklusi dari proyek yang dikerjakan.
+### Insight Dashboard:  
+- Memudahkan identifikasi faktor risiko attrition berdasarkan:  
+  - Departemen  
+  - Job role  
+  - Karakteristik karyawan  
 
-### Rekomendasi Action Items (Optional)
+---
 
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
+## Rekomendasi Action Items  
 
-- action item 1
-- action item 2
+### 1. Dept R&D & Sales  
+- Lakukan exit interview mendalam  
+- Tinjau struktur bonus & career-path  
+
+### 2. Pria (Male) Lebih Sering Resign  
+- Program retensi "gender-aware"  
+- Sediakan:  
+  - Fleksibilitas cuti  
+  - Mentoring  
+
+### 3. Overtime >10 Jam/Bulan  
+- Batasi overtime maksimal **5-10 jam/bulan**  
+- Sediakan program kesejahteraan  
+
+### 4. Laboratory Technician & Sales Executive  
+- Review shift kerja laboratorium  
+- Tambahkan insentif retention untuk Sales Executive  
+
+### 5. Resign di Tahun ke-0-5  
+- Implementasi:  
+  - Onboarding & mid-term review  
+  - Program buddy system  
+
+### 6. Life Sciences & Medical Field  
+- Sediakan training lanjutan  
+- Buat forum cross-functional  
+
+### 7. Job Satisfaction Rendah  
+- Survey kepuasan triwulanan  
+- Program recognition untuk karyawan dengan skor rendah  
