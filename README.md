@@ -109,40 +109,11 @@ Setelah melakukan rangkaian analisis data, pemodelan machine learning, dan pembu
 
 ## Rekomendasi Action Items
 
-### 1. Dept R&D & Sales
-
-- Lakukan exit interview mendalam
-- Tinjau struktur bonus & career-path
-
-### 2. Pria (Male) Lebih Sering Resign
-
-- Program retensi "gender-aware"
-- Sediakan:
-  - Fleksibilitas cuti
-  - Mentoring
-
-### 3. Overtime >10 Jam/Bulan
-
-- Batasi overtime maksimal **5-10 jam/bulan**
-- Sediakan program kesejahteraan
-
-### 4. Laboratory Technician & Sales Executive
-
-- Review shift kerja laboratorium
-- Tambahkan insentif retention untuk Sales Executive
-
-### 5. Resign di Tahun ke-0-5
-
-- Implementasi:
-  - Onboarding & mid-term review
-  - Program buddy system
-
-### 6. Life Sciences & Medical Field
-
-- Sediakan training lanjutan
-- Buat forum cross-functional
-
-### 7. Job Satisfaction Rendah
-
-- Survey kepuasan triwulanan
-- Program recognition untuk karyawan dengan skor rendah
+| No | Insight Utama                                    | Action Item                                                                                                                                                               | KPI / Target                               | Pemilik        | Waktu Implementasi |
+|----|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|----------------|--------------------|
+| 1  | Dept R&D & Sales paling tinggi attrition         | • Exit interview mendalam pada 100% karyawan yang resign di R&D & Sales selama 3 bulan terakhir<br>• Review & revise struktur gaji, bonus, career-path untuk kedua dept.    | Turun attrition R&D & Sales 20% dalam 6 bln | HR Manager     | Q3 2025            |
+| 2  | Pria (Male) lebih sering resign                  | • Desain dan jalankan program retensi “gender-aware” (flexi-cuti, mentoring circle) khusus male employees<br>• Survey kepuasan khusus gender setiap kuartal               | Peningkatan engagement score male +10%     | HR Business Partner | Q2 2025        |
+| 3  | Overtime = Yes memiliki attrition tinggi         | • Kebijakan batasi overtime max 5–10 jam/bulan<br>• Program well-being: sesi yoga mingguan, konseling triwulanan<br>• Kompensasi lembur transparan                           | Turun % overtime >10 jtm by 50%            | Ops Manager    | Mulai Mei 2025     |
+| 4  | Laboratory Technician & Sales Executive riskan   | • For Lab Tech: optimasi shift & workflow lab (Lean workshop)<br>• For Sales Exec: skema retention bonus triwulanan & recognition awards                                     | Retensi Lab Tech +15%; Sales +10%          | Dept Heads     | Q3 2025            |
+| 5  | Life Sciences & Medical field tinggi attrition   | • Buat jalur karier riset: sertifikasi, rotasi project setiap 6 bln<br>• Forum cross-functional bulanan untuk knowledge sharing                                              | Penurunan attrition LifeSci/Medical 15%    | L&D Team       | Q3 2025            |
+| 6  | JobSatisfaction rendah (1–2) → attrition tinggi  | • Survey kepuasan triwulanan + focus group discussion<br>• Program recognition & reward (Employee of the Month, shout-outs)<br>• Action plan per feedback survey            | Meningkatkan satisfaction score ≥3         | HR Analytics   | Mulai Mei 2025     |
